@@ -16,13 +16,13 @@ c_r = 15
 cat = 10
 cats = []
 
-catpc = pygame.image.load("/home/kk/Documents/python/project balls/cat.png").convert_alpha()
+catpc = pygame.image.load("cat.png").convert_alpha()
 catpc = pygame.transform.scale(catpc, (150, 150))
 
-clew = pygame.image.load("/home/kk/Documents/python/project balls/clew.png").convert_alpha()
+clew = pygame.image.load("clew.png").convert_alpha()
 clew = pygame.transform.scale(clew, (70, 60))
 
-grass = pygame.image.load("/home/kk/Documents/python/project balls/grass.jpg").convert_alpha()
+grass = pygame.image.load("grass.jpg").convert_alpha()
 grass = pygame.transform.scale(grass, (X, Y))
 
     
